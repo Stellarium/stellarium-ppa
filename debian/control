@@ -6,19 +6,25 @@ Build-Depends: cmake,
                debhelper (>= 11),
                debhelper-compat (= 11),
                doxygen,
-               libqt5opengl5-dev (>= 5.9),
-               libqt5serialport5-dev (>= 5.9),
                mesa-common-dev,
-               qtbase5-dev (>= 5.9),
-               qtdeclarative5-dev (>= 5.9),
-               qtdeclarative5-dev-tools (>= 5.9),
-               qtmultimedia5-dev (>= 5.9),
-               qtpositioning5-dev (>= 5.9),
-               qtscript5-dev (>= 5.9),
-               qttools5-dev (>= 5.9),
-               qttools5-dev-tools (>= 5.9),
-               libqt5charts5-dev (>= 5.9),
-               qtwebengine5-dev (>= 5.9) [i386 amd64],
+               qt6-base-dev (>= 6.2),
+               qt6-tools-dev (>= 6.2),
+               qt6-tools-dev-tools (>= 6.2),
+               qt6-l10n-tools (>= 6.2),
+               linguist-qt6 (>= 6.2),
+               libqt6svg6-dev (>= 6.2),
+               qt6-multimedia-dev (>= 6.2),
+               libqt6serialport6-dev (>= 6.2),
+               qt6-positioning-dev (>= 6.2),
+               libqt6positioning6-plugins (>= 6.2),
+               libqt6charts6-dev (>= 6.2),
+               libqt6opengl6-dev (>= 6.2),
+               libqt6webchannel6-dev (>= 6.2) [amd64 arm64],
+               libqt6webenginewidgets6 (>= 6.2) [amd64 arm64],
+               libqt6webenginecore6-bin (>= 6.2) [amd64 arm64],
+               libqt6webengine6-data (>= 6.2) [amd64 arm64],
+               qt6-webengine-dev (>= 6.2) [amd64 arm64],
+               qt6-webengine-dev-tools (>= 6.2) [amd64 arm64],
                libindi-dev (>= 1.8.2),
                zlib1g-dev
 Standards-Version: 4.5.0
@@ -26,9 +32,12 @@ Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
 Homepage: https://www.stellarium.org
 
-Package: stellarium
+Package: stellarium-qt6
 Architecture: any
-Depends: stellarium-data (= ${source:Version}),
+Conflicts: stellarium
+Depends: stellarium-qt6-data (= ${source:Version}),
+         libqt6webenginecore6-bin (>= 6.2) [amd64 arm64],
+         libqt6webengine6-data (>= 6.2) [amd64 arm64],
          ${misc:Depends},
          ${shlibs:Depends}
 Description: real-time photo-realistic sky generator
@@ -57,10 +66,11 @@ Description: real-time photo-realistic sky generator
  like eclipse predictions. However, it is the ideal program to prepare an
  observation evening with naked eye, binocular, or small telescope.
 
-Package: stellarium-data
+Package: stellarium-qt6-data
+Conflicts: stellarium-data
 Architecture: all
 Depends: fonts-dejavu-core, ${misc:Depends}
-Recommends: stellarium (= ${source:Version})
+Recommends: stellarium-qt6 (= ${source:Version})
 Description: Stellarium data files
  Stellarium renders 3D photo-realistic skies in real-time. With Stellarium, you
  really see what you can see with your eyes, binoculars or a small telescope.
