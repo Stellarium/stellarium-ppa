@@ -1,0 +1,585 @@
+stellarium (0.22.2-2) unstable; urgency=medium
+
+  * New upstream version 0.22.2
+
+stellarium (0.20.2-1) unstable; urgency=medium
+
+  * New upstream version 0.20.2
+
+ -- Tomasz Buchert <tomasz@debian.org>  Mon, 13 Jul 2020 12:55:32 +0200
+
+stellarium (0.20.1-1) unstable; urgency=medium
+
+  * New upstream version 0.20.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sun, 03 May 2020 21:52:59 +0200
+
+stellarium (0.20.0-1) unstable; urgency=medium
+
+  * New upstream version 0.20.0
+  * Bump std-ver to 4.5.0
+
+ -- Tomasz Buchert <tomasz@debian.org>  Tue, 31 Mar 2020 00:07:58 +0200
+
+stellarium (0.19.3-1) unstable; urgency=medium
+
+  * New upstream version 0.19.3
+
+ -- Tomasz Buchert <tomasz@debian.org>  Wed, 01 Jan 2020 17:34:22 +0100
+
+stellarium (0.19.2-1) unstable; urgency=medium
+
+  * New upstream version 0.19.2
+  * Bump std-ver to 4.4.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 12 Oct 2019 20:07:34 +0200
+
+stellarium (0.19.1-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Tomasz Buchert <tomasz@debian.org>  Thu, 11 Jul 2019 23:43:08 +0200
+
+stellarium (0.19.1-1) experimental; urgency=medium
+
+  * New upstream version 0.19.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 22 Jun 2019 14:44:19 +0200
+
+stellarium (0.19.0-1) experimental; urgency=medium
+
+  * New upstream version 0.19.0
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 30 Mar 2019 10:36:35 +0100
+
+stellarium (0.18.3-1) unstable; urgency=medium
+
+  * New upstream version 0.18.3
+  * Debhelper compat 12
+
+ -- Tomasz Buchert <tomasz@debian.org>  Fri, 04 Jan 2019 08:30:37 +0100
+
+stellarium (0.18.2-1) unstable; urgency=medium
+
+  * New upstream version 0.18.2
+
+ -- Tomasz Buchert <tomasz@debian.org>  Thu, 16 Aug 2018 23:45:13 +0200
+
+stellarium (0.18.1-1) unstable; urgency=medium
+
+  * New upstream version 0.18.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Thu, 05 Jul 2018 08:48:20 +0200
+
+stellarium (0.18.0-1) unstable; urgency=medium
+
+  * New upstream version 0.18.0
+  * d/control: update vcs links to salsa
+  * Fix insecure-copyright-format-uri
+
+ -- Tomasz Buchert <tomasz@debian.org>  Tue, 27 Mar 2018 09:07:32 +0200
+
+stellarium (0.17.0-1) unstable; urgency=medium
+
+  * New upstream version 0.17.0
+  * d/watch: update to github
+  * Update compat to 11
+  * Bump Standard-Version to 4.1.3
+
+ -- Tomasz Buchert <tomasz@debian.org>  Fri, 22 Dec 2017 01:48:41 +0100
+
+stellarium (0.16.1-1) unstable; urgency=medium
+
+  * New upstream version 0.16.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Fri, 22 Sep 2017 23:18:59 +0200
+
+stellarium (0.16.0-1) unstable; urgency=medium
+
+  * New upstream version 0.16.0
+  * Bum Standards-Version to 4.0.0
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 24 Jun 2017 11:01:26 +0200
+
+stellarium (0.15.2-1) unstable; urgency=medium
+
+  * New upstream version 0.15.2
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 25 Mar 2017 08:23:48 +0100
+
+stellarium (0.15.1-1) unstable; urgency=medium
+
+  * d/control: use debhelper 10
+  * d/watch: use watch version 4
+  * New upstream version 0.15.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sun, 25 Dec 2016 16:49:59 +0100
+
+stellarium (0.15.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.15.0
+  * Bumped standards version to 3.9.7 (no changes needed)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sun, 31 Jul 2016 15:00:09 +0200
+
+stellarium (0.14.3-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.14.3
+  * Bumped standards version to 3.9.7 (no changes needed)
+  * Removed menu file per tech-ctte decision in bug 741573
+  * Fixed source lintian overrides which didn't work
+
+ -- Tomasz Buchert <tomasz@debian.org>  Fri, 25 Mar 2016 11:33:43 +0100
+
+stellarium (0.14.2-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.14.2
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sun, 10 Jan 2016 21:42:18 +0100
+
+stellarium (0.14.1-2) unstable; urgency=medium
+
+  * d/control: drop qtquick dependencies (Closes: #808698)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Tue, 22 Dec 2015 12:42:20 +0100
+
+stellarium (0.14.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.14.1
+
+ -- Tomasz Buchert <tomasz@debian.org>  Wed, 02 Dec 2015 18:42:23 +0100
+
+stellarium (0.14.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.14.0 (Closes: #803568)
+  * d/patches: drop patches
+  * d/source.lintian-overrides: temporary override for minified js
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sun, 01 Nov 2015 14:34:04 +0100
+
+stellarium (0.13.3-2) unstable; urgency=medium
+
+  [ Marcus Lundblad ]
+  * Install appstream appdata.
+
+  [ Tomasz Buchert ]
+  * d/gbp.conf: update config
+  * d/patches: Fix Qt linking problem (Closes: #786715)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Wed, 03 Jun 2015 12:59:37 +0200
+
+stellarium (0.13.3-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.13.3
+  * Bugs fixed (Closes: #779046)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 25 Apr 2015 22:20:59 +0200
+
+stellarium (0.13.2-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.13.2
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Tue, 20 Jan 2015 19:20:13 +0100
+
+stellarium (0.13.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.13.1
+  * Ensure proper Cmake version
+  * d/watch: veryfing tarball signatures
+  * d/patches: drop patches
+  * Bumped standards version to 3.9.6
+  * Override "package-contains-timestamped-gzip"
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sun, 19 Oct 2014 16:47:53 +0200
+
+stellarium (0.13.0-2) unstable; urgency=medium
+
+  * Fix build problems on non-x86 archs (Closes: #755445)
+  * Add mesa-common-dev to build dependencies
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Tue, 22 Jul 2014 00:10:21 +0200
+
+stellarium (0.13.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.13.0
+  * Bumped standards version to 3.9.5
+  * Update VCS-* fields
+  * More restrictive watch file
+  * Custom gbp settings
+  * Change to team maintenance
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sat, 19 Jul 2014 19:19:47 +0200
+
+stellarium (0.12.4-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12.4
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sat, 28 Sep 2013 22:10:41 +0200
+
+stellarium (0.12.3-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12.3
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Mon, 09 Sep 2013 11:37:58 +0200
+
+stellarium (0.12.2-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12.2
+  * Added dependency to phonon (to enable video/sound)
+  * Fixed VCS links
+  * Removed unused lintian tag (embedded-library glee)
+  * Dropped obsolete patch
+  * Update copyright
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sun, 04 Aug 2013 15:06:55 +0200
+
+stellarium (0.12.1-4) unstable; urgency=low
+
+  * Update dependency from ttf-dejavu-core to fonts-dejavu-core
+  * Temporary fix for build problems on kFreeBSD
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Wed, 26 Jun 2013 10:04:00 +0200
+
+stellarium (0.12.1-3) unstable; urgency=low
+
+  * Upload back to unstable, again (no changes)
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Mon, 27 May 2013 01:21:45 +0200
+
+stellarium (0.12.1-2) experimental; urgency=low
+
+  * Upload back to unstable (no changes)
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sun, 26 May 2013 22:45:13 +0200
+
+stellarium (0.12.1-1) experimental; urgency=low
+
+  * Imported Upstream version 0.12.1
+  * Installing icons provided by upstream
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Tue, 23 Apr 2013 18:31:29 +0200
+
+stellarium (0.12.0-1) experimental; urgency=low
+
+  * Drop 'DM-Upload-Allowed' field
+  * Bumped Debian Policy to 3.9.4
+  * Imported Upstream version 0.12.0
+  * Removed sound support.
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sat, 02 Feb 2013 18:00:48 +0100
+
+stellarium (0.11.4a-2~1.gbpd4f751) experimental; urgency=low
+
+  * Added sound support
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Thu, 27 Sep 2012 16:32:29 +0200
+
+stellarium (0.11.4a-1) experimental; urgency=low
+
+  * Imported Upstream version 0.11.4a
+  * Add 'DM-Upload-Allowed: yes' to debian/control
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Sun, 02 Sep 2012 16:40:25 +0200
+
+stellarium (0.11.3-1) unstable; urgency=low
+
+  * Imported Upstream version 0.11.3
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Tue, 22 May 2012 10:14:07 +0200
+
+stellarium (0.11.2-1) unstable; urgency=low
+
+  * Imported Upstream version 0.11.1 and then 0.11.2 (Closes: #658431)
+  * Change maintainer (Closes: #668916)
+  * Machine-readable copyright file
+  * Bump Standards-Version to 3.9.3
+  * Update debhelper compat to 9
+  * Fix lintian duplicate-font-file warning
+  * Fix copyright-refers-to-symlink-license lintian tag
+  * Add lintian override for embedded-library error
+
+ -- Tomasz Buchert <tomasz.buchert@inria.fr>  Fri, 18 May 2012 13:26:18 +0200
+
+stellarium (0.11.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #633517)
+  * Update description and drop libqt4-sql-sqlite (Closes: #613380)
+
+ -- Cédric Delfosse <cedric@debian.org>  Tue, 02 Aug 2011 20:55:21 +0200
+
+stellarium (0.10.5-1) unstable; urgency=low
+
+  * New upstream release (Closes: #586804)
+  * Remove 01_fix_pow10_function_check.diff, now applied upstream
+  * Remove 02_remove_unknown_locale_code.diff, no more needed
+  * Rendering of `old_style' landscapes fixed by upstream (Closes: #581657)
+  * Update debian/control:
+    - Bump Standards-Version from 3.8.4 to 3.9.0
+    - Add libqt4-sql-sqlite to Depends (Closes: #582726)
+  * Update debian/copyright:
+    - Fix FSF address
+
+ -- Cédric Delfosse <cedric@debian.org>  Sat, 31 Jul 2010 15:44:02 +0200
+
+stellarium (0.10.4-0.1) unstable; urgency=low
+
+  * Non-maintainer upload - acked by the maintainer
+  * New upstream release (Closes: #570005, #577985)
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Add 01_fix_pow10_function_check.diff:
+    pow10 function check fails as we don't link against math library
+  * Add 02_remove_unknown_locale_code.diff:
+    remove nan locale code, it is unknown
+  * Bump debian/compat from 5 to 7
+  * Update debian/control:
+    - bump debhelper build dependency to 7.4.15 for dh usage
+    - cleanup build dependencies (keep libqt4*-dev and add zlib1g-dev)
+    - add versioned build dependencies to cmake (>= 2.6.0)
+    - add versioned build dependencies to libqt4-dev (>= 4.6.0)
+      (Closes: #578890)
+    - bump Standards-Version to 3.8.0 to 3.8.4 (no changes needed)
+    - relax dependency relation between stellarium and stellarium-data
+      (Closes: #482889)
+    - add missing ${misc:Depends} to stellarium-data, lintian warning--
+    - remove stellarium (<< 0.6.2-1) Replaces, it's not needed anymore
+    - cleanup stellarium-data description, lintian warning--
+  * Update debian/copyright:
+    - cleanup layout
+    - update copyright information
+  * Update debian/rules:
+    - convert to dh usage
+    - enable parallel build (pass --parallel option to dh)
+    - list missing files (pass --list-missing option to dh)
+  * Update debian/stellarium.desktop (Closes: #530315):
+    - remove encoding key, deprecated
+    - add missing list separator to categories key
+  * Add debian/watch file.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 24 Apr 2010 10:44:18 +0300
+
+stellarium (0.10.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri, 13 Mar 2009 20:07:22 +0100
+
+stellarium (0.10.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #505850, #504329)
+  * Remove all previous patches (no more applies or no more needed), drop quilt
+  * Fix "planets wont show up with german locale" (Closes: #493287)
+  * Bump Standards-Version to 3.8.0
+  * Fix debian/copyright: licence version is GPL v2 or later
+
+ -- Cédric Delfosse <cedric@debian.org>  Wed, 18 Feb 2009 21:29:51 +0100
+
+stellarium (0.9.1-4) unstable; urgency=low
+
+  * Add libxcursor-dev, libxfixes-dev, libxinerama-dev, libqt4-opengl-dev to
+    build-deps (Closes: #479906)
+
+ -- Cédric Delfosse <cedric@debian.org>  Mon, 19 May 2008 21:28:23 +0200
+
+stellarium (0.9.1-3) unstable; urgency=low
+
+  * Add libjpeg62-dev to build-deps (Closes: #477023)
+  * Also add missing libfontconfig1-dev, libice-dev, libsm-dev, libxi-dev,
+    libxrandr-dev, libxrender-dev, libglib2.0-dev to build-deps
+  * Add patch from Heine Larsen locale_numeric.patch to fix black screen
+    problem after stellarium startup (Closes: #476882)
+
+ -- Cédric Delfosse <cedric@debian.org>  Tue, 22 Apr 2008 20:30:25 +0200
+
+stellarium (0.9.1-2.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Add patch gcc-4.3.patch fixing build with GCC 4.3 (Closes: #462702).
+
+ -- Sylvestre Ledru <sylvestre.ledru@inria.fr>  Wed, 19 Mar 2008 14:00:25 +0100
+
+stellarium (0.9.1-2) unstable; urgency=low
+
+  * Fix FTBFS on pbuilder
+  * Fix some lintian warnings
+    * debian/control: remove build depend on dpatch, add Homepage header
+    * debian/menu: move from Apps/Science to Applications/Science/Astronomy
+    * debian/copyright: fix encoding
+
+ -- Cédric Delfosse <cedric@debian.org>  Sat, 19 Jan 2008 17:42:17 +0100
+
+stellarium (0.9.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: Bug#461427)
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri, 18 Jan 2008 23:02:51 +0100
+
+stellarium (0.9.0-2) unstable; urgency=low
+
+  * New patch coming from upstream SVN (Closes: Bug#453804):
+    * time_related_fix.patch: recoded a lot of time-related methods using Qt
+
+ -- Cédric Delfosse <cedric@debian.org>  Mon, 03 Dec 2007 21:33:10 +0100
+
+stellarium (0.9.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: Bug#428498)
+  * Now use QT instead of SDL, also add depends on libcurl4-dev
+  * No more apply 64bit_fix.patch and opengl_context_init.patch
+  * New gettext.patch so that make install DESTDIR=foo works
+  * Add --disable-rpath in debian/rules to the configure line to fix
+    binary-or-shlib-defines-rpath lintian warning
+
+ -- Cédric Delfosse <cedric@debian.org>  Sun, 17 Jun 2007 21:51:58 +0200
+
+stellarium (0.8.2-3) unstable; urgency=low
+
+  * fix debian/rules so that patches are really applied
+  * New patches coming from upstream SVN (Closes: Bug#405596):
+    * opengl_context_init.patch: fix OpenGL context initialization code that
+      may fail with some OpenGL drivers
+    * 64bit_fix.patch: fix segfault at stellarium init on 64 bits architecture
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri,  5 Jan 2007 21:24:18 +0100
+
+stellarium (0.8.2-2) unstable; urgency=low
+
+  * Fix stellarium.desktop file (Closes: Bug#403429, Bug#383831)
+    Now stellarium shows (with kstars) in:
+     - GNOME menu: Applications -> Education
+     - KDE menu: Applications -> Edutainement -> Science
+  * New upstream version in unstable (Closes: Bug#392046)
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri, 29 Dec 2006 21:32:36 +0100
+
+stellarium (0.8.2-1) experimental; urgency=low
+
+  * New upstream release (6 oct 2006)
+  * Use quilt
+  * Remove outdated README.Debian
+  * Hardcode CONFIG_DATA_DIR in configure.ac, because datadir and
+    CONFIG_DATA_DIR invocation are mixed-up. Same problem and same fix for the
+    LOCALEDIR variable.
+
+ -- Cédric Delfosse <cedric@debian.org>  Sat,  9 Dec 2006 16:03:23 +0100
+
+stellarium (0.8.1-2) unstable; urgency=low
+
+  * Add libfreetype6-dev to Build-Depends (Closes: Bug#397705)
+  * Fix path in man page (Closes: Bug#376482)
+
+ -- Cédric Delfosse <cedric@debian.org>  Tue, 14 Nov 2006 21:06:06 +0100
+
+stellarium (0.8.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: Bug#376348)
+  * Use debhelper compat 5
+  * Use dpatch
+  * Include .mo files into stellarium-data !
+
+ -- Cédric Delfosse <cedric@debian.org>  Thu, 20 Jul 2006 23:21:14 +0200
+
+stellarium (0.8.0-2) unstable; urgency=low
+
+  * Fix "Some text cannot be output" bug. (Closes: Bug#369500)
+    Thanks to Julien Blache for the patch
+  * Fix "FTBFS with GCC 4.1". (Closes: Bug#370680)
+    Thanks again to Martin Michlmayr
+
+ -- Cédric Delfosse <cedric@debian.org>  Mon, 12 Jun 2006 21:24:47 +0200
+
+stellarium (0.8.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.7.2
+  * Fix "man page refers to non-existent info documentation" bug
+    (Closes: Bug#365451, Bug#342881)
+  * debian/control: add upstream web page to long description
+  * "segv in startup" with LANG=en_IN is fixed (Closes: Bug#350132)
+  * "stellarium clock behind system clock" is fixed (Closes: Bug#345031)
+    There is now a button to sync the system clock with stellarium clock.
+
+ -- Cédric Delfosse <cedric@debian.org>  Thu, 25 May 2006 15:16:24 +0200
+
+stellarium (0.7.1-2) unstable; urgency=low
+
+  * Fix FTBFS with G++ 4.1 (Closes: Bug#357750)
+    (Thanks to Martin Michlmayr for the patch)
+  * New icon and .desktop file (Closes: Bug#351854, Bug#361543)
+    (Thanks to Sven Arvidsson)
+  * Now build depends on libglu1-mesa-dev instead of xlibmesa-glu-dev
+
+ -- Cédric Delfosse <cedric@debian.org>  Thu, 27 Apr 2006 22:55:48 +0200
+
+stellarium (0.7.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: Bug#333358)
+  * Just use -O2 for gcc to maybe get it compiled for m68k (Closes: Bug#329088)
+  * Use libpng instead of internal PNG code (Closes: Bug#318026)
+
+ -- Cédric Delfosse <cedric@debian.org>  Tue,  4 Oct 2005 22:55:34 +0200
+
+stellarium (0.6.2-3) unstable; urgency=low
+
+  * Fix FTBFS: Declaration of stel_ui with no type (Closes: Bug#324052)
+
+ -- Cédric Delfosse <cedric@debian.org>  Mon, 29 Aug 2005 23:25:26 +0200
+
+stellarium (0.6.2-2) unstable; urgency=low
+
+  * Fix FTBFS with (amd64/gcc-4.0) (Closes: Bug#303027)
+  * Make stellarium-data replaces stellarium << 0.6.2 (Closes: Bug#303162)
+
+ -- Cédric Delfosse <cedric@debian.org>  Tue,  5 Apr 2005 21:23:30 +0200
+
+stellarium (0.6.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri, 10 Dec 2004 22:52:39 +0100
+
+stellarium (0.5.1-4) unstable; urgency=low
+
+  * Move "why in non-free ?" explanations from README.Debian to copyright
+
+ -- Cédric Delfosse <cedric@debian.org>  Sun, 14 Sep 2003 14:42:16 +0200
+
+stellarium (0.5.1-3) unstable; urgency=low
+
+  * Put package in non-free, explain in README.Debian (closes: Bug#198495)
+  * Acknowledge Hipparcos mission of ESA in copyright file
+  * Put xlibmesa-gl-dev and xlibmesa-glu-dev in Build-Depends
+
+ -- Cédric Delfosse <cedric@debian.org>  Thu,  4 Sep 2003 22:04:05 +0200
+
+stellarium (0.5.1-2) unstable; urgency=low
+
+  * Fix long description again (sigh)
+  * Really upgrade Standards-Version to 3.5.9
+
+ -- Cédric Delfosse <cedric@debian.org>  Mon, 12 May 2003 14:01:56 +0200
+
+stellarium (0.5.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Default config files now have more comments (closes: Bug#185497)
+  * Fix "Non-fullscreen should be in a proper window" bug (closes: Bug#185495)
+  * Add command line arguments checking (closes: Bug#182097)
+  * Add icon for menu entry
+  * Upgrade Standards-Version to 3.5.9
+  * Description in control now fits in 80 column
+
+ -- Cédric Delfosse <cedric@debian.org>  Sun, 27 Apr 2003 22:43:06 +0200
+
+stellarium (0.5.0-2) unstable; urgency=low
+
+  * Add xlibmesa-dev to Build-Depends
+
+ -- Cédric Delfosse <cedric@debian.org>  Thu, 23 Jan 2003 22:46:07 +0100
+
+stellarium (0.5.0-1) unstable; urgency=low
+
+  * Initial Release. (closes: Bug#158781)
+  * Made a man page
+  * Put AM_MAINTAINER_MODE in configure.in
+
+ -- Cédric Delfosse <cedric@debian.org>  Fri, 17 Jan 2003 22:23:50 +0100

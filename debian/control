@@ -1,0 +1,69 @@
+Source: stellarium
+Maintainer: Alexander Wolf <alex.v.wolf@gmail.com>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               debhelper (>= 11),
+               debhelper-compat (= 11),
+               doxygen,
+               libqt5opengl5-dev (>= 5.9),
+               libqt5serialport5-dev (>= 5.9),
+               mesa-common-dev,
+               qtbase5-dev (>= 5.9),
+               qtdeclarative5-dev (>= 5.9),
+               qtdeclarative5-dev-tools (>= 5.9),
+               qtmultimedia5-dev (>= 5.9),
+               qtpositioning5-dev (>= 5.9),
+               qtscript5-dev (>= 5.9),
+               qttools5-dev (>= 5.9),
+               qttools5-dev-tools (>= 5.9),
+               libqt5charts5-dev (>= 5.9),
+               qtwebengine5-dev (>= 5.9) [i386 amd64],
+               libindi-dev (>= 1.8.2),
+               zlib1g-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://github.com/Stellarium/stellarium
+Vcs-Git: https://github.com/Stellarium/stellarium.git
+Homepage: https://www.stellarium.org
+
+Package: stellarium
+Architecture: any
+Depends: stellarium-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: real-time photo-realistic sky generator
+ Stellarium renders 3D photo-realistic skies in real-time. With Stellarium, you
+ really see what you can see with your eyes, binoculars or a small telescope.
+ .
+ Some features:
+  - default star catalogue with over 600 thousand stars,
+  - information about the brightest stars (spectral type, distance, etc.),
+  - downloadable star catalogue extensions, for up to 210 million stars,
+  - all New General Catalogue (NGC) objects,
+  - images of almost all Messier objects and the Milky Way,
+  - real time positions of the planets and their satellites,
+  - 46 different cultures with their constellations,
+  - artistic illustrations of the 88 Western constellations,
+  - very realistic atmosphere, sunrise and sunset,
+  - 7 panoramic landscapes (more can be made or downloaded from the website),
+  - scripting with ECMAScript,
+  - plug-in support: Stellarium comes with 22 plug-ins by default, including:
+  - artificial satellites plug-in (updated from an on-line TLE database),
+  - ocular simulation plug-in (shows how objects look like in a given ocular),
+  - Solar System editor plug-in (imports comet and asteroid data from the MPC),
+  - telescope control plug-in (Meade LX200 and Celestron NexStar compatible).
+ .
+ Stellarium should not be used for very high accurate calculation or ephemerids
+ like eclipse predictions. However, it is the ideal program to prepare an
+ observation evening with naked eye, binocular, or small telescope.
+
+Package: stellarium-data
+Architecture: all
+Depends: fonts-dejavu-core, ${misc:Depends}
+Recommends: stellarium (= ${source:Version})
+Description: Stellarium data files
+ Stellarium renders 3D photo-realistic skies in real-time. With Stellarium, you
+ really see what you can see with your eyes, binoculars or a small telescope.
+ .
+ This package contains data files required by Stellarium. They include
+ textures, star catalogues and translations.
