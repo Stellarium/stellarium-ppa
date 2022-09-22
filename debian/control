@@ -21,6 +21,7 @@ Build-Depends: cmake,
                libqt5charts5-dev (>= 5.9),
                qtwebengine5-dev (>= 5.9) [i386 amd64],
                libindi-dev (>= 1.8.2),
+               libindi-plugins (>= 1.8.2),
                zlib1g-dev
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/Stellarium/stellarium
