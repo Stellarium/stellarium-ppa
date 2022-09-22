@@ -27,6 +27,7 @@ Build-Depends: cmake,
                qt6-webengine-dev (>= 6.2) [amd64 arm64],
                qt6-webengine-dev-tools (>= 6.2) [amd64 arm64],
                libindi-dev (>= 1.8.2),
+               libindi-plugins (>= 1.8.2),
                zlib1g-dev
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/Stellarium/stellarium
