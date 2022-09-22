@@ -15,4 +15,4 @@ override_dh_missing:
 	dh_missing --fail-missing
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DENABLE_SHOWMYSKY=0 -DCPM_QXlsx_SOURCE=../qxlsx/QXlsx
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DENABLE_SHOWMYSKY=0 -DCPM_QXlsx_SOURCE=../qxlsx
