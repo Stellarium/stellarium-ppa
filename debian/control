@@ -37,12 +37,13 @@ Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
 Homepage: https://www.stellarium.org
 
-Package: stellarium-qt6
+Package: stellarium
+Replaces: stellarium-qt6
 Architecture: any
-Conflicts: stellarium
-Depends: stellarium-qt6-data (= ${source:Version}),
+Depends: stellarium-data (= ${source:Version}),
          libqt6webenginecore6-bin (>= 6.4) [amd64 arm64],
          libqt6webengine6-data (>= 6.4) [amd64 arm64],
+         qt6-qpa-plugins (>= 6.4), qt6-wayland (>= 6.4),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: real-time photo-realistic sky generator
@@ -71,11 +72,11 @@ Description: real-time photo-realistic sky generator
  like eclipse predictions. However, it is the ideal program to prepare an
  observation evening with naked eye, binocular, or small telescope.
 
-Package: stellarium-qt6-data
-Conflicts: stellarium-data
+Package: stellarium-data
+Replaces: stellarium-qt6-data
 Architecture: all
 Depends: fonts-dejavu-core, ${misc:Depends}
-Recommends: stellarium-qt6 (= ${source:Version})
+Recommends: stellarium (= ${source:Version})
 Description: Stellarium data files
  Stellarium renders 3D photo-realistic skies in real-time. With Stellarium, you
  really see what you can see with your eyes, binoculars or a small telescope.
