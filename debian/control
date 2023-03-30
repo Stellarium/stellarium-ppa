@@ -36,12 +36,14 @@ Vcs-Git: https://github.com/Stellarium/stellarium.git
 Homepage: https://www.stellarium.org
 
 Package: stellarium
-Replaces: stellarium-qt6 
+Replaces: stellarium-qt6
+Conflicts: stellarium-qt6
 Architecture: any
 Depends: stellarium-data (= ${source:Version}),
          libqt6webenginecore6-bin (>= 6.2) [amd64 arm64],
          libqt6webengine6-data (>= 6.2) [amd64 arm64],
-         qt6-qpa-plugins (>= 6.2), qt6-wayland (>= 6.2),
+         qt6-qpa-plugins (>= 6.2), 
+         qt6-wayland (>= 6.2),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: real-time photo-realistic sky generator
