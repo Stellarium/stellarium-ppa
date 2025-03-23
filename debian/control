@@ -26,7 +26,8 @@ Build-Depends: cmake,
                zlib1g-dev,
                libexiv2-dev,
                libnlopt-cxx-dev,
-               libgps-dev
+               libgps-dev,
+               libmd4c-dev
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
