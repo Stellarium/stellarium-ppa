@@ -15,4 +15,4 @@ override_dh_missing:
 	dh_missing --fail-missing
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DENABLE_SHOWMYSKY=Off -DENABLE_XLSX=Off -DENABLE_INDI=Off
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DENABLE_SHOWMYSKY=Off -DENABLE_XLSX=Off -DENABLE_INDI=Off
