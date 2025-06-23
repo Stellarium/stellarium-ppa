@@ -37,6 +37,7 @@ Build-Depends: cmake,
                libnlopt-cxx-dev,
                libgps-dev,
                libmd4c-dev,
+               libmd4c-html0-dev,
                libmd4c-html0
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/Stellarium/stellarium
