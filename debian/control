@@ -40,7 +40,9 @@ Build-Depends: cmake,
                libgps-dev,
                libmd4c-dev,
                libmd4c-html0-dev,
-               libmd4c-html0
+               libmd4c-html0,
+               libglm-dev,
+               libeigen3-dev
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
