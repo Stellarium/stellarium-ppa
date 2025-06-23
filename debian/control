@@ -1,10 +1,10 @@
 Source: stellarium
-Maintainer: Alexander Wolf <alex.v.wolf@gmail.com>
+Maintainer: Alexander V. Wolf <alex.v.wolf@gmail.com>
 Section: science
 Priority: optional
 Build-Depends: cmake,
-               debhelper (>= 11),
-               debhelper-compat (= 11),
+               debhelper (>= 13),
+               debhelper-compat (= 13),
                doxygen,
                mesa-common-dev,
                qt6-base-dev (>= 6.2),
@@ -37,7 +37,7 @@ Build-Depends: cmake,
                libnlopt-cxx-dev,
                libgps-dev,
                libmd4c-dev
-Standards-Version: 4.5.0
+Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
 Homepage: https://www.stellarium.org
