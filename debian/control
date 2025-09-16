@@ -41,7 +41,7 @@ Build-Depends: cmake,
                libmd4c-html0,
                libglm-dev,
                libeigen3-dev,
-               calcmysky (>= 0.3.5) [amd64]
+               calcmysky (>= 0.3.5)
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
