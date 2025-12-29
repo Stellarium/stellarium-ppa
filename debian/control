@@ -31,6 +31,14 @@ Build-Depends: cmake,
                libqt6webengine6-data (>= 6.4) [amd64 arm64],
                qt6-webengine-dev (>= 6.4) [amd64 arm64],
                qt6-webengine-dev-tools (>= 6.4) [amd64 arm64],
+               libqt6texttospeech6 (>= 6.4),
+               qt6-speech-dev (>= 6.4),
+               qt6-speech-speechd-plugin (>= 6.4),
+               qt6-speech-flite-plugin (>= 6.4),
+               flite,
+               speech-dispatcher,
+               speech-dispatcher-flite,
+               speech-dispatcher-espeak-ng,
                libindi-dev (>= 1.8.2),
                libindi-plugins (>= 1.8.2),
                libnova-dev,
@@ -43,7 +51,7 @@ Build-Depends: cmake,
                libmd4c-html0,
                libglm-dev,
                libeigen3-dev,
-               calcmysky
+               calcmysky (>= 0.4.0)
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/Stellarium/stellarium
 Vcs-Git: https://github.com/Stellarium/stellarium.git
@@ -59,7 +67,7 @@ Depends: stellarium-data (= ${source:Version}),
          qt6-qpa-plugins (>= 6.4),
          qt6-wayland (>= 6.4),
          qt6-image-formats-plugins (>= 6.4),
-         calcmysky (>= 0.3.5),
+         calcmysky,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: real-time photo-realistic sky generator
